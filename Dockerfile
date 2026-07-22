@@ -1,3 +1,7 @@
 FROM tindy2013/subconverter:latest
+
+WORKDIR /subconverter
+
 EXPOSE 25500
-ENTRYPOINT ["/subconverter/subconverter"]
+
+CMD ["sh", "-c", "./subconverter"]
