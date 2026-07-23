@@ -1,0 +1,13 @@
+{
+  "name": "v2ray-rename-sub",
+  "version": "1.0.0",
+  "description": "Proxy to rename V2Ray subscription and strip metadata",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "private": true
+}
